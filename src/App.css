@@ -1,0 +1,97 @@
+.home {
+  padding: 20px;
+}
+Lik {
+  text-decoration: none;
+}
+.each-job {
+  margin-bottom: 20px;
+  background-color: #ced0d6;
+  padding: 20px;
+  border-radius: 6px;
+  list-style-type: none;
+  
+}
+.container {
+  display: flex;
+  justify-content: space-between; /* Optional: Adds space between boxes */
+}
+.box {
+  flex-grow: 1;   /* Allows the box to grow to take up remaining space */
+  flex-shrink: 1; /* Allows the box to shrink if needed */
+  flex-basis: 0;  /* Sets the initial size of the boxes */
+  margin: 10px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around; /* Space the buttons evenly */
+  background-color: #333;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+.selected{
+  background-color: blueviolet;
+  border: 1px solid goldenrod;
+  color:white;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.company-name{
+  font-size: 20px;
+  font-family: cursive;
+}
+.job-role{
+  font-size: 16px;
+  font-family: cursive;
+
+}
+.bookmark-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.bookmarked {
+  color: #f39c12; /* Highlight for bookmarked jobs */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer button.selected {
+  font-weight: bold;
+  background-color: rgb(112, 83, 219);
+  border-radius: 1px solid goldenrod;
+}
